@@ -17,8 +17,8 @@ Install-Module OSD -Force
 
 switch ($input)
 {
-    '1' { Start-OSDCloud -OSLanguage en-us -OSName 'Windows 11 23H2 x64' -OSEdition Pro -ZTI } 
-    '2' { Start-OSDCloud -OSLanguage en-us -OSName 'Windows 10 22H2 x64' -OSEdition Pro -ZTI } 
+    '1' { Start-OSDCloud -OSLanguage en-us -OSName 'Windows 11 23H2 x64' -OSEdition Pro -OSActivation Volume -ZTI } 
+    '2' { Start-OSDCloud -OSLanguage en-us -OSName 'Windows 10 22H2 x64' -OSEdition Pro -OSActivation Volume -ZTI } 
     '3' { Start-OSDCloud	} 
     '4' { Exit		}
 }
