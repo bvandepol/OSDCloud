@@ -3,7 +3,6 @@ Clear-Host
 Write-Host "=======================================================" -ForegroundColor Yellow
 Write-Host "===================== Main Menu =======================" -ForegroundColor Yellow
 Write-Host "==================== ID Logistics =====================" -ForegroundColor Yellow
-Write-Host "================== Beau van de Pol ====================" -ForegroundColor Yellow
 Write-Host "============= bvandepol@id-logistics.com ==============" -ForegroundColor Yellow
 Write-Host "=======================================================" -ForegroundColor Yellow
 Write-Host "1: Windows 11 23H1"-ForegroundColor Yellow
